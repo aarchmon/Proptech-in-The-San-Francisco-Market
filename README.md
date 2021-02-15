@@ -40,9 +40,13 @@ from dotenv import load_dotenv
 
 ## Examples
 
-![](./Images/5-4-monte-carlo-histogram.png)
+![Average Sale and Gross Rent](./Images/avg-sale-px-sq-foot-gross-rent.png)
 
-![](./Images/5-4-monte-carlo-line-plot.png)
+![Mapbox Plot](./Images/mapbox-plot.png)
+
+![Pricing Information by Neighborhood](./Images/pricing-info-by-neighborhood.png)
+
+![Housing Units by Year](./Images/zoomed-housing-units-by-year.png)
 
 ---
 
