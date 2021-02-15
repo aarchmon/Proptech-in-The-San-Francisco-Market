@@ -7,21 +7,19 @@
 ## Technologies
 
 
-Before attempting to execute any _Python_ code in `risk_return_analysis.ipynb`, it is imperative that your development environment holds the following modules:
+Before attempting to execute any _Python_ code in `san_francisco_housing.ipynb`, it is imperative that your development environment holds the following modules:
 
-[requests](https://2.python-requests.org/en/master/) - HTTPs request module.
-
-[json](https://docs.python.org/3/library/json.html) - _.json_ encoder and decoder module.
+[os](https://docs.python.org/3/library/os.html) - Miscellaneous operating system interfaces.
 
 [pandas](https://pandas.pydata.org/pandas-docs/stable/) - Data analysis module.
 
+[plotly](https://plotly.com/python/) - Interactive plotting module.
+
+[hvplot](https://hvplot.holoviz.org/) - High-level plotting API.
+
+[pathlib](https://docs.python.org/3/library/pathlib.html) - Object-oriented filesystem path library.
+
 [dotenv](https://pypi.org/project/python-dotenv/) - _.env_ file parser module.
-
-[alpaca_trade_api](https://pypi.org/project/alpaca-trade-api/) - _Python_ library for the Alpaca Commission Free Trading API
-
-[matplotlib](https://matplotlib.org/) - Data visualization module.
-
-[seaborn](https://seaborn.pydata.org/) - Statistical data visualization module. 
 
 ---
 
@@ -30,13 +28,12 @@ Before attempting to execute any _Python_ code in `risk_return_analysis.ipynb`, 
 With your _Python 3.7+_ environment, run the following commands via CLI:
 
 ```
-pip install requests
-pip install json
-pip install pandas
-pip install python-dotenv
-pip install alpaca_trade_api
-pip install matplotlib
-pip install seaborn
+import os
+import pandas as pd
+import plotly.express as px
+import hvplot.pandas
+from pathlib import Path
+from dotenv import load_dotenv
 ```
 
 ---
